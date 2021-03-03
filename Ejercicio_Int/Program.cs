@@ -25,8 +25,6 @@ namespace Ejercicio_Int
             System.Console.WriteLine("El valor de la suma es: " + suma);
             System.Console.WriteLine("\n## Presiona cualquier tecla para continuar ##");
             System.Console.ReadKey();
-
-
         }
     }
 }
