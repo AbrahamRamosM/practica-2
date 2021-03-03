@@ -23,7 +23,7 @@ namespace practica_2
             System.Console.WriteLine(numero);
             System.Console.WriteLine(saludo);
             System.Console.WriteLine(numero + 2);
-            Console.ReadKey();
+            System.Console.ReadKey();
         }
     }
 }
