@@ -14,6 +14,7 @@ namespace Ejercicio_StringInt
 
             String nombre;
             String edad;
+
             // Pedir datos
 
             Console.WriteLine("Favor de escribir tu nombre:");
