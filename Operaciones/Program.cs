@@ -21,22 +21,18 @@ namespace Operaciones
 
             Double a = Convert.ToDouble(x);
             Double b = Convert.ToDouble(y);
-            Double add = a + b;
-            Double minus = a - b;
-            Double multiply = a * b;
-            Double divide = a / b;
-            Double residue = a % b;
+            Double result;
 
-            // Se muestran los resultados
+            // Se muestran los resultados con las operaciones
 
             Console.Clear();
 
             Console.WriteLine("Numero 1: " + x + "\nNumero 2: " + y + "\n");
-            Console.WriteLine("- La suma es: " + add);
-            Console.WriteLine("- La resta es: " + minus);
-            Console.WriteLine("- La multiplicacion es: " + multiply);
-            Console.WriteLine("- La division es: " + divide);
-            Console.WriteLine("- El residuo es: " + residue);
+            Console.WriteLine("- La suma es: {0}", result = a + b);
+            Console.WriteLine("- La resta es: {0}", result = a - b);
+            Console.WriteLine("- La multiplicacion es: {0}", result = a * b);
+            Console.WriteLine("- La division es: {0}", result = a / b);
+            Console.WriteLine("- El residuo es: {0}", result = a % b);
 
             Console.WriteLine("\n## Presione cualquier tecla para continuar ##");
             System.Console.ReadKey();
