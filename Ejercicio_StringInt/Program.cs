@@ -13,24 +13,18 @@ namespace Ejercicio_StringInt
             // Declarar variables
 
             String nombre;
-            int edad;
-
+            String edad;
             // Pedir datos
 
             Console.WriteLine("Favor de escribir tu nombre:");
             nombre = Console.ReadLine();
             Console.WriteLine("\nFavor de escribir tu edad:");
-            string años = Console.ReadLine();
+            edad = Console.ReadLine();
             
             // Mostrar datos
 
             Console.Clear();
-            
-            if (int.TryParse(años, out edad)) {
-                Console.WriteLine("\nTe llamas " + nombre + " y tienes " + edad + " años.");
-            } else {
-                Console.WriteLine("\nTe llamas " + nombre + " y tienes " + años + " años.");
-            }
+            Console.WriteLine("\nTe llamas " + nombre + " y tienes " + Convert.ToInt32(edad) + " años.");
 
             System.Console.ReadKey();
         }
